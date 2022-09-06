@@ -52,6 +52,7 @@ createApp({
 
 <script setup>
 import { ref } from 'vue'
+// ref() 函数用来根据给定的值创建一个响应式的数据对象，ref() 函数调用的返回值是一个对象，这个对象只包含一个.value属性
 const count = ref(0)
 </script>
 
